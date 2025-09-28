@@ -57,13 +57,11 @@ class Die():
 
 
     def is_clicked(self, y_mouse, x_mouse):
-        for y in range(self.top_left[0], self.bot_right[0] + 1):
-            for x in range(self.top_left[1], self.bot_right[1] + 1):
-                if (self.top_left[0] <= y_mouse <= self.bot_right[0]) and (self.top_left[1] <= x_mouse <= self.bot_right[1]):
-                    self.toggle_hold()
-                    return True
-                else:
-                    return False
+        if (self.top_left[0] <= y_mouse <= self.bot_right[0]) and (self.top_left[1] <= x_mouse <= self.bot_right[1]):
+            self.toggle_hold()
+            return True
+        else:
+            return False
 
 class Dice():
     def __init__(self, win):
@@ -212,7 +210,6 @@ def main(scr):
         if ch in  [ord('1'), ord('2'), ord('3'), ord('4'), ord('5')]:
             ind = int(chr(ch))-1
             dice.dice[ind].toggle_hold()
-            dice.dice[ind].draw()
 
         if ch in [ord('t'), ord('T')]:
             dice.reset()
