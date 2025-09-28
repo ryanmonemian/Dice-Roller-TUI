@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61004f03-c738-4143-9cd1-ce6b8256f8aa" name="Changes" comment="got die class roll function working with held state.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="61004f03-c738-4143-9cd1-ce6b8256f8aa" name="Changes" comment="finished die roller app, with working clickable buttons" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -112,7 +109,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756839222271</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="finished die roller app, with working clickable buttons">
+      <option name="closed" value="true" />
+      <created>1759101517030</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1759101517030</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,7 +137,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial working dice roller app with just functions" />
     <MESSAGE value="got die class roll function working with held state." />
-    <option name="LAST_COMMIT_MESSAGE" value="got die class roll function working with held state." />
+    <MESSAGE value="finished die roller app, with working clickable buttons" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished die roller app, with working clickable buttons" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/RyansFirstProj$main.coverage" NAME="main Coverage Results" MODIFIED="1757903918715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
