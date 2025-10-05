@@ -5,12 +5,6 @@ It uses `curses` for a text-based interface and `numpy` for random rolls. You ro
 
 ---
 
-## Preview
-
-![Dice Roller Preview](./preview.png)
-
----
-
 ## Setup Instructions
 
 ### 1. Create and activate an environment
